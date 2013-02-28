@@ -1,0 +1,1 @@
+(function(){jQuery(function(){return $(".m-header h1").fitText(.5)})}).call(this);
