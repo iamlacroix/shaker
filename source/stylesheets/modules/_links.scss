@@ -1,6 +1,7 @@
 .m-links {
   margin-bottom: 1em;
   text-align: center;
+  font-size: 50%;
 
   ul {
     list-style: none;
@@ -11,5 +12,13 @@
     display: inline;
     font-size: 3em;
     font-weight: bold;
+  }
+
+  @include media(480px) {
+    font-size: 75%;
+  }
+
+  @include media($breakpoint-ipad) {
+    font-size: 100%;
   }
 }

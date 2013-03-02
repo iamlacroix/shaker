@@ -1,9 +1,16 @@
 .m-header {
+  margin-top: 2em;
   margin-bottom: 1em;
   text-transform: uppercase;
   text-align: center;
 
   h1 {
     font-size: 5em;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+  }
+
+  @include media($breakpoint-ipad) {
+    margin-top: 1em;
   }
 }
